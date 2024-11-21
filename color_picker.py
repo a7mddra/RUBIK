@@ -22,7 +22,7 @@ def detect_color_name(r, g, b):
 
 def get_point_color(frame, x, y):
     """Get the color of a single pixel at (x, y)."""
-    b, g, r = frame[y, x]  # OpenCV uses BGR format
+    b, g, r = frame[y, x]
     return detect_color_name(r, g, b)
 
 def pick_color(frame, start_x, start_y, region_size=10):
@@ -37,9 +37,7 @@ def pick_color(frame, start_x, start_y, region_size=10):
         (start_x + region_size // 2, start_y + region_size // 2),
     ]
 
-    # Collect color names from sampled points
     color_names = [get_point_color(frame, x, y) for x, y in points]
 
-    # Determine the most frequent color name
     most_frequent_color = max(set(color_names), key=color_names.count)
     return most_frequent_color

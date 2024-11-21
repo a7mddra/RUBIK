@@ -13,14 +13,14 @@ def show_rectangle_with_color(picked_color):
     red_color = (0, 0, 255)
 
     while True:
-        image[:] = 0  # Clear the image
+        image[:] = 0
         cv2.rectangle(image, top_left, bottom_right, current_color, -1)
         cv2.imshow("Color Rectangle", image)
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('r'):
             current_color = red_color if current_color != red_color else picked_color
-        elif key == ord('q') or key == 27:  # Press 'q' or 'ESC' to quit
+        elif key == ord('q') or key == 27:
             break
 
     cv2.destroyAllWindows()
