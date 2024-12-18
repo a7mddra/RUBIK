@@ -37,7 +37,8 @@ To compile this project, ensure the following are installed on your Linux system
 
 2. **GNOME Terminal**.
    
-3. for representing the 3D ASCII cube without issues, Choose `Ubuntu on Xorg` and login.
+3. **Ubuntu on Xorg**
+   for representing the 3D ASCII cube without issues, Choose `Ubuntu on Xorg` and login.
 
 
 ---
