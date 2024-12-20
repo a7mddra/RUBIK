@@ -116,7 +116,7 @@ U'
 
 ## **Demo**
 
-You can check out a demo of the run in action by visiting this [LinkedIn post]().
+You can check out a demo of the run in action by visiting this [LinkedIn post](https://www.linkedin.com/posts/a7mddra_i-solved-rubiks-cube-in-terminal-using-c-activity-7275835356967501826-d0LO?utm_source=share&utm_medium=member_desktop).
 
 In the post, I showcase how the app runs in the terminal.
 
