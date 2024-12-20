@@ -126,6 +126,6 @@ Feel free to take a look at the video to see the app in real-time!
 
 ## Thanks to
 
-- @muodov for the Kociemba C version solver.
+- @muodov for the Kociemba C version.
 
 ---
